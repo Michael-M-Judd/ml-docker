@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.2.2-gpu-py3-jupyter
+FROM tensorflow/tensorflow:2.4.0-gpu-jupyter
 
 RUN apt-get update && apt-get install -y python3-dev build-essential python3-pip
 RUN mkdir -p /usr/src/app
